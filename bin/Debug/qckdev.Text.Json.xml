@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>qckdev.Text.Json</name>
+    </assembly>
+    <members>
+        <member name="T:qckdev.Text.Json.JsonConvert">
+            <summary>
+            Provides methods for converting between .NET types and JSON types.
+            </summary>
+        </member>
+        <member name="M:qckdev.Text.Json.JsonConvert.SerializeObject``1(``0)">
+            <summary>
+            Converts the <paramref name="value"/> of a type specified by a generic type parameter into a JSON string.
+            </summary>
+            <typeparam name="TValue">The type of the <paramref name="value"/> to serialize.</typeparam>
+            <param name="value">The value to convert.</param>
+            <returns> A JSON string representation of the <paramref name="value"/>.</returns>
+        </member>
+        <member name="M:qckdev.Text.Json.JsonConvert.DeserializeObject(System.String)">
+            <summary>
+            Parses the text representing a single JSON value into an instance of the type <see cref="T:System.Object"/>.
+            </summary>
+            <param name="value">The JSON text to parse.</param>
+            <returns>A <see cref="T:System.Object"/> representation of the JSON value.</returns>
+        </member>
+        <member name="M:qckdev.Text.Json.JsonConvert.DeserializeObject``1(System.String)">
+            <summary>
+            Parses the text representing a single JSON value into an instance of the type specified by a generic type parameter.
+            </summary>
+            <typeparam name="TValue">The target type of the JSON <paramref name="value"/>.</typeparam>
+            <param name="value">The JSON text to parse.</param>
+            <returns>A <typeparamref name="TValue"/> representation of the JSON value.</returns>
+        </member>
+        <member name="M:qckdev.Text.Json.JsonConvert.IsDeserializable(System.String)">
+            <summary>
+            Checks if a string value has a JSON format.
+            </summary>
+            <param name="value">The text to validate if it has a JSON format.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

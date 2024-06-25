@@ -1,0 +1,12 @@
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\obj\Debug\Guessing Game.csproj.AssemblyReference.cache
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\obj\Debug\Guessing Game.csproj.CoreCompileInputs.cache
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\Guessing Game.exe.config
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\Guessing Game.exe
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\Guessing Game.pdb
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\qckdev.Text.Json.dll
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\bin\Debug\qckdev.Text.Json.xml
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\obj\Debug\Guessing.D393ECB3.Up2Date
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\obj\Debug\Guessing Game.exe
+C:\Users\Students\source\repos\Guessing Game\Guessing Game\obj\Debug\Guessing Game.pdb

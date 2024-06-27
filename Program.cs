@@ -70,8 +70,12 @@ namespace Guessing_Game
                 }
 
             }
-            catch(Exception e) 
-            { Console.WriteLine($"Error: {e.Message}"); }
+            catch(Exception e) { Console.WriteLine($"Error: {e.Message}"); }
+            finally
+            {
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadLine();
+            }
         }
 
         public class GuessRequest

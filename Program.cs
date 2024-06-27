@@ -46,10 +46,8 @@ namespace Guessing_Game
 
                     var jsonRequest = JsonConvert.SerializeObject(request);
                     var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
-
                     var response = await client.PostAsync("https://localhost:7129/Guess", content);
                     response.EnsureSuccessStatusCode();
-
                     var jsonResponse = await response.Content.ReadAsStringAsync();
                     var guessResponse = JsonConvert.DeserializeObject<GuessResponse>(jsonResponse);
 
